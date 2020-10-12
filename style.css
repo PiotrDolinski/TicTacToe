@@ -1,86 +1,82 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-body{
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 18px;
-    color: whitesmoke;
-    text-align: center;
-    background-color:#5e899d;
-    margin: auto;
-    height: 100vh;
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 18px;
+  color: whitesmoke;
+  text-align: center;
+  background-color: #5e899d;
+  margin: auto;
+  height: 100vh;
 }
 
-.header{
-    font-size: 44px;
-    margin: 40px;
+.header {
+  font-size: 44px;
+  margin: 40px;
 }
 
-.container{
-   width: 30vw;
-   height: 50vh;
-   margin: auto;
-   display:grid;
-   grid-template-columns: 1fr 1fr 1fr;
-   grid-template-rows: 1fr 1fr 1fr;
+.container {
+  width: 30vw;
+  height: 50vh;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
-.tile{
-    
-    font-size: 60px;
-    border: 1px solid white; 
+.tile {
+  font-size: 60px;
+  border: 1px solid white;
 }
 
-.tile:hover{
-    background-color: rgb(97, 139, 224);
+.tile:hover {
+  background-color: rgb(97, 139, 224);
 }
 
-.far,fa-circle,
-.fas,fa-times{
-   
-    padding: 20px;    
+.far,
+fa-circle,
+.fas,
+fa-times {
+  padding: 20px;
 }
-.button{
-    margin-top: 50px;
-    border: none;
-    background-color: #5e899d;
-    font-size: 18px;
-    color: white;
-    
+.button {
+  margin-top: 50px;
+  border: none;
+  background-color: #5e899d;
+  font-size: 18px;
+  color: white;
 }
-[data-id="1"]{
-    border-left: hidden;
-    border-top: hidden;
-}
-
-[data-id="2"]{
-    border-top: hidden;
+[data-id='1'] {
+  border-left: hidden;
+  border-top: hidden;
 }
 
-[data-id="3"]{
-    border-right: hidden;
-    border-top: hidden;
-}
-[data-id="4"]{
-    border-left: hidden;
-   
+[data-id='2'] {
+  border-top: hidden;
 }
 
-[data-id="6"]{
-    border-right: hidden;
- 
+[data-id='3'] {
+  border-right: hidden;
+  border-top: hidden;
 }
-[data-id="7"]{
-    border-left: hidden;
-    border-bottom: hidden;
+[data-id='4'] {
+  border-left: hidden;
 }
-[data-id="8"]{
-  
-    border-bottom: hidden;
+
+[data-id='6'] {
+  border-right: hidden;
 }
-[data-id="9"]{
-    border-right: hidden;
-    border-bottom: hidden;
+[data-id='7'] {
+  border-left: hidden;
+  border-bottom: hidden;
+}
+[data-id='8'] {
+  border-bottom: hidden;
+}
+[data-id='9'] {
+  border-right: hidden;
+  border-bottom: hidden;
 }
